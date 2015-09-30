@@ -1,0 +1,169 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0; padding: 0;  border: 0; outline: 0; font-size: 100%;
+    vertical-align: baseline; background: transparent;
+}
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+body {
+    text-align: center;
+    font-size: 0.9em;
+    color: #000000;
+    background: #f2f2f2;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+#wrapper {
+    width: 800px;
+    margin: 0px auto;
+}
+.container {
+    width: 768px;
+    min-height: 450px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    border: 1px solid #d4d4d4;
+    padding: 15px;
+    float: left;
+}
+button {
+    background-color:#7fb750;
+    background:-moz-linear-gradient(top, #7fb750, #3c6127);
+    background:-webkit-linear-gradient(top, #7fb750, #3c6127);
+    background:-o-linear-gradient(top, #7fb750, #3c6127);
+    background:-ms-linear-gradient(top, #7fb750, #3c6127);
+    background:linear-gradient(to bottom, #7fb750, #3c6127);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7fb750', endColorstr='#3c6127',GradientType=0);
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border: 0px;
+    display:inline-block;
+    cursor:pointer;
+    color:#fff;
+    font-size:15px;
+    padding:5px 15px;
+    height: 30px;
+    line-height: 20px;
+    text-decoration:none;
+}
+input, textarea {
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border: 1px solid #d4d4d4;
+    min-height: 27px;
+    padding: 0 10px;
+    margin: 0px 10px 0 0;
+}
+input {
+    width: 137px;
+}
+textarea {
+    padding: 10px;
+    width: 210px;
+    margin-bottom: 10px;
+    resize: vertical;
+    display:block;
+}
+.label {
+    width: 90px;
+    margin-right: 10px;
+    line-height: 30px;
+    float: left;
+    height: 30px;
+    text-align: right;
+}
+.fields {
+    width: 250px;
+}
+.row {
+    float: left;
+    padding: 20px 0px 0px 30px;
+    width: 350px;
+}
+.row div {
+    float: left;
+}
+/*--- header section ---*/
+header {
+    padding: 15px;
+}
+.logo {
+    width: 245px;
+    height: 81px;
+    background: url('../img/logo-header.png') no-repeat;
+}
+
+
+/*--- content section ---*/
+.items-form {
+    width: 380px;
+    min-height: 200px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    background-color: #fcfcfc;
+    background-image: -webkit-linear-gradient(top, #fcfcfc, #e6e6e6);
+    background-image: linear-gradient(to bottom, #fcfcfc, #e6e6e6);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#e6e6e6',GradientType=0);
+    -webkit-box-shadow: 1px 1px 5px 0px #aeaeae;
+    box-shadow: 1px 1px 5px 0px #aeaeae;
+    float: left;
+}
+aside {
+    float: left;
+    width: 350px;
+    margin-left: 15px;
+}
+.heading {
+    line-height: 25px;
+    border-bottom: 1px solid #d4d4d4;
+}
+.item {
+    width: 340px;
+    float: left;
+    padding: 0 5px;
+    margin-top: 5px;
+    line-height: 38px;
+    min-height: 38px;
+    font-family: Georgia, serif;
+    border-bottom: 1px dashed #d4d4d4;
+}
+.index {
+    background-color: #fffae8;
+    background-image: -webkit-linear-gradient(top, #ffffff, #fffae8);
+    background-image: linear-gradient(to bottom, #ffffff, #fffae8);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#fffae8',GradientType=0);
+    padding: 5px 0;
+    margin-right: 20px;
+    width: 35px;
+    float: left;
+    text-align: center;
+}
+.title {
+    color: #ec6c27;
+    width: 230px;
+    line-height: 45px;
+    float: left;
+}
+.delete {
+    font-size: .8em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4199d3;
+    cursor: pointer;
+    float: right;
+    line-height: 45px;
+}
